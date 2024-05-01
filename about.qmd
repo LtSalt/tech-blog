@@ -1,0 +1,14 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/LtSalt
+    - text: "{{< iconify fa6-brands x-twitter >}} Twitter"
+      href: https://twitter.com
+---
+
+Behind-the-scenes-blog of a techy German journalist.

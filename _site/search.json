@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Behind-the-scenes-blog of a techy German journalist."
+  },
+  {
+    "objectID": "posts/scraping-the-police/index.html",
+    "href": "posts/scraping-the-police/index.html",
+    "title": "Investigating a bias in German police reporting",
+    "section": "",
+    "text": "German media is notorious for misrepresenting foreigners in their reporting on crime. Foreigners make up only a fraction of all crime suspects. Yet, studies show news making mentioning a suspect’s citizenship to disproportionally feature foreigners.\nThe origins of this misrepresentation can likely be traced back to New Year’s Eve, 2015. On this day, hundreds of men - most of them of North African and Arabic descent - gathered at Cologne central station, rioting, attacking and sexually harassing women in the area. However, journalists only slowly picked up reports about these unprecedented attacks. Many commentators saw this as proof of a liberal bias in the news room.\n\n\n\nCologne Central Station | © Raimond Spekking\n\n\nAs a consequence, the German Press Council revised it’s official guidelines. The media was still discouraged from disclosing a suspect’s citizenship. But there are now exceptions: “Public interest” can justify breaking the general rule. Aimed at providing transparency, this vague revision might have made the pendulum swing the other way: Towards reporting that disproportionally depicts foreigners as delinquents."
+  },
+  {
+    "objectID": "posts/scraping-the-police/index.html#when-foreigners-are-depicted-as-delinquents",
+    "href": "posts/scraping-the-police/index.html#when-foreigners-are-depicted-as-delinquents",
+    "title": "Investigating a bias in German police reporting",
+    "section": "",
+    "text": "German media is notorious for misrepresenting foreigners in their reporting on crime. Foreigners make up only a fraction of all crime suspects. Yet, studies show news making mentioning a suspect’s citizenship to disproportionally feature foreigners.\nThe origins of this misrepresentation can likely be traced back to New Year’s Eve, 2015. On this day, hundreds of men - most of them of North African and Arabic descent - gathered at Cologne central station, rioting, attacking and sexually harassing women in the area. However, journalists only slowly picked up reports about these unprecedented attacks. Many commentators saw this as proof of a liberal bias in the news room.\n\n\n\nCologne Central Station | © Raimond Spekking\n\n\nAs a consequence, the German Press Council revised it’s official guidelines. The media was still discouraged from disclosing a suspect’s citizenship. But there are now exceptions: “Public interest” can justify breaking the general rule. Aimed at providing transparency, this vague revision might have made the pendulum swing the other way: Towards reporting that disproportionally depicts foreigners as delinquents."
+  },
+  {
+    "objectID": "posts/scraping-the-police/index.html#getting-to-the-source",
+    "href": "posts/scraping-the-police/index.html#getting-to-the-source",
+    "title": "Investigating a bias in German police reporting",
+    "section": "Getting to the source",
+    "text": "Getting to the source\nBut the media can only report on what it knows. When it comes to crime, the source and gatekeeper of most information is the police. If there was a bias in their communications, chances are we might see this bias appear on the other side of the information pipeline - the media. That’s what I was thinking when I was working for the German Press Agency (dpa) a couple of years ago, covering (among other things) crime in the state of Brandenburg.\nIn fact, there’s evidence that’s exactly the case. In 2021, a team of journalists collected millions of police press releases from ten German states, proving a systemic bias: Two out of three press releases that disclosed the alleged perpetrator’s or the victim’s nationality were about foreigners.\nBut there was a catch. Some states, like Brandenburg, don’t use the centralised news feed where the journalists had collected their data, and were thus exempted from any scrutiny. The investigation did also not provide a lot of details. For example, we learned that police press reports overproportionally featured foreign nationals, but not if they tended to be the suspects or the victims of these crimes."
+  },
+  {
+    "objectID": "posts/scraping-the-police/index.html#the-code",
+    "href": "posts/scraping-the-police/index.html#the-code",
+    "title": "Investigating a bias in German police reporting",
+    "section": "The code",
+    "text": "The code\nSo I wrote a couple of scripts to fix this. I scraped the police archive of the state of Brandenburg, collecting round about 120 000 press releases spanning more than 14 years of police work. Then I used AI to systematically analyze their work. How I did this: That’s going to be the topic of the next two to three posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David's Coding Site",
+    "section": "",
+    "text": "Investigating a bias in German police reporting\n\n\n\n\n\n\nnews\n\n\nbias\n\n\npolice\n\n\nscraping\n\n\nai\n\n\n\n\n\n\n\n\n\nJan 5, 2024\n\n\n\n\n\n\nNo matching items"
+  }
+]
