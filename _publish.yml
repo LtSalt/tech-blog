@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 9dd82e3f-fa03-4844-bb12-58e1eeb77d1e
+      url: 'https://codingthenews.com'

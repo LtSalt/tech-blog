@@ -1,6 +1,6 @@
 ---
 title: "Investigating a bias in German police reporting"
-date: "01/05/2024"
+date: "2024-05-15"
 categories: [news, bias, police, scraping, ai]
 image: "image.jpg"
 ---
@@ -17,12 +17,12 @@ As a consequence, the German Press Council revised it's [official guidelines](ht
 
 ## Getting to the source
 
-But the media can only report on what it knows. When it comes to crime, the source and gatekeeper of most information is the police. If there was a bias in their communications, chances are we might see this bias appear on the other side of the information pipeline - the media. That's what I was thinking when I was working for the German Press Agency (dpa) a couple of years ago, covering (among other things) crime in the state of Brandenburg.
+But the media can only report on what it knows. When it comes to crime, the source and gatekeeper of most information is the police. If there was a bias in their communications, chances are we might see this bias appear on the other side of the information pipeline - the media. That's what I was thinking when I was working for the German Press Agency (dpa) a couple of years ago, covering (among other things) crime in the state of Brandenburg. At this time I was reading *a lot* of these press releases and got the impression there might be something wrong with their portrayal of foreign perpetrators.
 
-In fact, there's evidence that's exactly the case. In 2021, [a team of journalists](https://www.ndr.de/fernsehen/sendungen/panorama3/Polizei-nennt-Nationalitaeten-regional-sehr-unterschiedlich,polizeimeldungen102.html) collected millions of police press releases from ten German states, proving a systemic bias: Two out of three press releases that disclosed the alleged perpetrator's or the victim's nationality were about foreigners.
+In fact, there's evidence from other states suggesting that might be exactly the case. In 2021, [a team of journalists](https://www.ndr.de/fernsehen/sendungen/panorama3/Polizei-nennt-Nationalitaeten-regional-sehr-unterschiedlich,polizeimeldungen102.html) collected millions of police press releases from ten states. They showed a systemic bias: Two out of three press releases that disclosed the alleged perpetrator's or the victim's nationality were about foreigners.
 
-But there was a catch. Some states, like Brandenburg, don't use the centralised news feed where the journalists had collected their data, and were thus exempted from any scrutiny. The investigation did also not provide a lot of details. For example, we learned that police press reports overproportionally featured foreign nationals, but not if they tended to be the suspects or the victims of these crimes.
+But there was a catch. Some states, like Brandenburg, don't use the centralised news feed the journalists used to collect the data, and were thus exempted from any scrutiny. The investigation did also not provide a lot of details. We learned that the police press reports in the investigation overproportionally featured foreign nationals, but not if they tended to be the suspects or the victims of these crimes.
 
 ## The code
 
-So I wrote a couple of scripts to fix this. I scraped the police archive of the state of Brandenburg, collecting round about 120 000 press releases spanning more than 14 years of police work. Then I used AI to systematically analyze their work. How I did this: That's going to be the topic of the next two to three posts.
+So I wrote a couple of scripts to fix this. I scraped the press archive for the police of the state of Brandenburg, collecting round about 120 000 press releases that span more than 14 years of police work. Then I used AI to systematically analyze their work. How I managed to do that is going to be the topic of the next two to three posts.
